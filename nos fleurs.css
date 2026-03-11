@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+body {
+    background-color: #dedbd2;
+}
+
+header {
+    background-color: #edafb8;
+    background-image: url(images/shiny.gif);
+    background-repeat: repeat;
+    background-size: contain;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#shiny {
+    height: 80px;
+    width: 80px;
+}
+
+header>h1 {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    background-color: #edafb8;
+
+}
+
+nav {
+    background-color: #f7e1d7;
+
+
+}
+
+
+.navigation li a:hover {
+    background-color: #e3c6b9;
+    color: #f8e8e0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.navigation li a {
+    display: flex;
+    color: #b89485;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bolder;
+}
+
+.selection {
+    font-family: "Poiret One", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+
+    
+
+}
+
+.selection>h3 {
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #ce717f;
+}
+
+div.polaroid1 {
+    width: 250px;
+    height: 380px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 25px;
+    transition: 1s;
+
+}
+
+
+
+.polaroid1:hover {
+    width: 20%;
+}
+
+
+
+
+.desc {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: "Poiret One", sans-serif;
+
+}
+
+.prix {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 12px;
+
+}
+
+.details {
+    font-weight: bolder;
+}
+
+.saison {
+    font-style: italic;
+    text-align: center;
+
+    font-family: "Poiret One", sans-serif;
+    font-size: 12px;
+
+}
+
+#bouquet1 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+section {
+    background-color: #f4ece8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+
+
+.texte {
+    
+    background-color: #dedbd2;
+    padding: 50px;
+    width: 550px;
+    text-align: justify;
+    border-radius: 20px;
+    margin: 50px 10px 50px 10px;
+    font-family: "Poiret One", sans-serif;
+    transition: 1s;
+    line-height: 23px;
+
+
+}
+
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Poiret One", sans-serif;
+}
+
+.transition {
+    background-color: white;
+    padding: 50px;
+    
+   
+}
+
+.bigcontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px 0px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+   
+}
+
+footer {
+    background-color: #edafb8;
+    color: #ffffff;
+    padding: 20px;
+
+    text-align: center;
+}
+
+
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    font-family: "Fleur De Leah", cursive;
+    font-size: 30px;
+
+}
+
+footer p {
+    font-family: sans-serif;
+    font-size: 14px;
+    opacity: 0.9;
+}

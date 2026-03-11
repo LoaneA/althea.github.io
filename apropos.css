@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+body {
+    background-color: #f4ece8;
+    background-image: url(images/sakura.gif);
+    
+}
+
+header {
+    background-color: #edafb8;
+    background-image: url(images/shiny.gif);
+    background-repeat: repeat;
+    background-size: contain;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+header>h1 {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    background-color: #edafb8;
+
+}
+
+nav {
+    background-color: #f7e1d7;
+
+
+}
+
+
+.navigation li a:hover {
+    background-color: #e3c6b9;
+    color: #f8e8e0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.navigation li a {
+    display: flex;
+    color: #b89485;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    
+    justify-content: right;
+    background-color: #dedbd2;
+    flex-direction: column;
+    
+    padding: 50px;
+    border-radius: 20px;
+    margin: 10px 150px 0px 150px;
+    
+    font-family: "Poiret One", sans-serif;
+    
+}
+
+.container2 {
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #dedbd2;
+   
+    
+    padding: 50px;
+    border-radius: 20px;
+    margin: 10px 150px 0px 150px;
+    
+    font-family: "Poiret One", sans-serif;
+    
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 120px 0px 120px;
+}
+
+#couverture {
+    width: 80px;
+    border-radius: 500px;
+    margin-top: 15px;
+    border: #ba4151 dotted 5px;
+    transition: 1s;
+}
+
+#couverture:hover {
+    width: 90px;
+}
+
+#tulips {
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.partenaire {
+        font-family: "Fleur De Leah", cursive;
+        color: #ba4151;
+        font-size: 25px;
+
+}
+
+
+.details {
+    font-weight: bolder;
+    color: #ba4151;
+}
+
+.mentionspecial {
+    font-style: italic;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.signature {
+
+
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.prenom {
+    font-size: 25px;
+    color: #ba4151;
+    font-family: "Fleur De Leah", cursive;
+    font-weight: lighter;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+
+
+footer {
+    background-color: #edafb8;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    font-family: "Fleur De Leah", cursive;
+    font-size: 30px;
+
+}
+
+footer p {
+    font-family: sans-serif;
+    font-size: 14px;
+    opacity: 0.9;
+}
