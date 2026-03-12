@@ -5,8 +5,9 @@
 }
 
 @view-transition {
-  navigation: auto;
+    navigation: auto;
 }
+
 body {
     background-color: #dedbd2;
 }
@@ -57,7 +58,7 @@ nav {
 #Syriacus {
     width: 30%;
     height: 30%;
-   
+
 
 }
 
@@ -74,7 +75,7 @@ h2 {
 }
 
 .article1 {
-     background-color: #ece2e3;
+    background-color: #ece2e3;
     font-family: "Poiret One", sans-serif;
     font-weight: bolder;
     color: #92a994;
@@ -91,7 +92,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
     text-align: center;
-    
+
 }
 
 .footer-content {

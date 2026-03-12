@@ -5,7 +5,7 @@
 }
 
 @view-transition {
-  navigation: auto;
+    navigation: auto;
 }
 
 body {
@@ -77,11 +77,11 @@ nav {
 }
 
 .rubis {
-    color:#d55252
+    color: #d55252
 }
 
 .article1 {
-     background-color: #ece2e3;
+    background-color: #ece2e3;
     font-family: "Poiret One", sans-serif;
     font-weight: bolder;
     color: #92a994;

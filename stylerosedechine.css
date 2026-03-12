@@ -5,7 +5,7 @@
 }
 
 @view-transition {
-  navigation: auto;
+    navigation: auto;
 }
 
 body {
@@ -82,7 +82,7 @@ nav {
 }
 
 .article1 {
-     background-color: #ece2e3;
+    background-color: #ece2e3;
     font-family: "Poiret One", sans-serif;
     font-weight: bolder;
     color: #92a994;

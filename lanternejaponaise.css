@@ -5,7 +5,7 @@
 }
 
 @view-transition {
-  navigation: auto;
+    navigation: auto;
 }
 
 body {
@@ -73,13 +73,13 @@ nav {
     text-decoration: underline;
     color: #adc4af;
     padding: 20px;
-    
-    
+
+
 
 }
 
-.rouge{
-    color:#d55252
+.rouge {
+    color: #d55252
 }
 
 .orange {
@@ -88,7 +88,7 @@ nav {
 
 
 .article1 {
-     background-color: #ece2e3;
+    background-color: #ece2e3;
     font-family: "Poiret One", sans-serif;
     font-weight: bolder;
     color: #92a994;
@@ -110,7 +110,7 @@ h3 {
 }
 
 footer {
-    background-color:#d55252;
+    background-color: #d55252;
     color: #ffffff;
     padding: 20px;
     margin-top: 40px;
