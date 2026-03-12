@@ -26,6 +26,12 @@ header {
 }
 
 
+#shiny {
+    height: 80px;
+    width: 80px;
+}
+
+
 
 header>h1 {
     font-family: "Fleur De Leah", cursive;
