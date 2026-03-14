@@ -5,8 +5,9 @@
 }
 
 @view-transition {
-  navigation: auto;
+    navigation: auto;
 }
+
 body {
     background-color: #dedbd2;
 }
@@ -57,7 +58,7 @@ nav {
 #Genevii {
     width: 30%;
     height: 30%;
-   
+
 
 }
 
@@ -82,7 +83,7 @@ h2 {
 }
 
 .article1 {
-     background-color: #ece2e3;
+    background-color: #ece2e3;
     font-family: "Poiret One", sans-serif;
     font-weight: bolder;
     color: #92a994;
@@ -93,13 +94,33 @@ h2 {
 
 }
 
+.navigationfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.navigationfooter li a {
+    display: flex;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poiret One", sans-serif;
+}
+
+.navigationfooter li a:hover {
+    background-color: #d2808c;
+    
+}
+
 footer {
     background-color: #cf6a79;
     color: #ffffff;
     padding: 20px;
     margin-top: 40px;
     text-align: center;
-    
+
 }
 
 .footer-content {
