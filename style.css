@@ -296,6 +296,26 @@ nav {
 
 }
 
+.navigationfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.navigationfooter li a {
+    display: flex;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poiret One", sans-serif;
+}
+
+.navigationfooter li a:hover {
+    background-color: #d2808c;
+    
+}
+
 footer {
     background-color: #edafb8;
     color: #ffffff;
